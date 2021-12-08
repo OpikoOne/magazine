@@ -1,0 +1,90 @@
+
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  height: auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+tr th {
+  color: white;
+}
+
+i {
+  color: rgba(172, 166, 166, 0.445);
+}
+
+p {
+  margin-top: 13px;
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.classwork {
+  text-align: left;
+}
+
+.test {
+  text-align: left;
+}
+
+.form-check-input-green {
+  appearance: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+
+  border: 1px solid rgb(18, 206, 27);
+  transition: 0.2s;
+  outline: none;
+  margin-right: 5px;
+  background: #fff;
+}
+
+.form-check-input-yellow {
+  appearance: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+
+  border: 1px solid rgb(223, 238, 12);
+  transition: 0.2s;
+  outline: none;
+  margin-right: 5px;
+  background: #fff;
+}
+
+.form-check-input-red {
+  appearance: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+
+  border: 1px solid rgb(219, 20, 20);
+  transition: 0.2s;
+  outline: none;
+  margin-right: 5px;
+  background: #fff;
+}
+
+.form-check-input-green:checked {
+  background: rgb(18, 206, 27);
+}
+
+.form-check-input-yellow:checked {
+  background: rgb(223, 238, 12);;
+}
+
+.form-check-input-red:checked {
+  background: rgb(219, 20, 20);
+}
